@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     apiKey: "",
     apiBaseUrl: "",
+    public: {
+      imgBaseUrl: "",
+    },
   },
   devtools: { enabled: true },
 });
